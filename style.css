@@ -1,0 +1,31 @@
+/*Root kontrollerar värden likt variabler i Figma */
+:root {
+    --color-purple: #7f687f;
+    --color-background: #f3f3f3;
+    --color-box: #36454F;
+    --color-text: #000;
+    
+    --font-heading: "Open Sans", sans-serif;
+    --font-body: "Open Sans", sans-serif;
+    
+    --max-width: 1040;
+    --spacing: 24px;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+/* header & menu */
+
+/* typography */
+h1{
+    font-family: var(--font-heading);
+    font-size: 1rm;
+    font-weight: 600;
+    line-height: 1,15;
+}
+
+section{
+    padding: 24px 24px 24px;
+}
